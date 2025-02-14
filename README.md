@@ -1,3 +1,4 @@
+![Intro](https://github.com/samir0607/samir0607/blob/a08005905b4b960a493edf872555beb3b6a19fad/Black%20Futuristic%20Animated%20Programmer%20Presentation.gif)
 # 💫 About Me:
 Hi there! I'm SAMIR GUPTA 👋<br><br>Welcome to my GitHub profile! I'm a passionate Computer Science and Engineering (CSE) student at DTU, constantly exploring new technologies and working on exciting projects.<br><br>✨ About Me<br><br>🎓 BTech in CSE at DTU'27<br>🛠️ Passionate about AI, Data Science, Cloud Computing, and Software Development<br>🌟 Contributing to Open Source<br>📊 Exploring Hybrid Software Development Models<br>💡 Working on a Women Safety App<br>☁️ Learning AWS Cloud & DevOps
 
