@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi there! I'm SAMIR GUPTA 👋<br><br>Welcome to my GitHub profile! I'm a passionate Computer Science and Engineering (CSE) student at DTU, constantly exploring new technologies and working on exciting projects.<br><br>✨ About Me<br><br>🎓 BTech in CSE at DTU'27<br>🛠️ Passionate about AI, Cloud Computing, and Software Development<br>🌟 Contributing to Open Source<br>📊 Exploring Hybrid Software Development Models<br>💡 Working on a Women Safety App<br>☁️ Learning AWS Cloud & DevOps
+Hi there! I'm SAMIR GUPTA 👋<br><br>Welcome to my GitHub profile! I'm a passionate Computer Science and Engineering (CSE) student at DTU, constantly exploring new technologies and working on exciting projects.<br><br>✨ About Me<br><br>🎓 BTech in CSE at DTU'27<br>🛠️ Passionate about AI, Data Science, Cloud Computing, and Software Development<br>🌟 Contributing to Open Source<br>📊 Exploring Hybrid Software Development Models<br>💡 Working on a Women Safety App<br>☁️ Learning AWS Cloud & DevOps
 
 
 ## 🌐 Socials:
