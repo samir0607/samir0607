@@ -1,7 +1,6 @@
 ![Intro](https://github.com/samir0607/samir0607/blob/a08005905b4b960a493edf872555beb3b6a19fad/Black%20Futuristic%20Animated%20Programmer%20Presentation.gif)
 # 💫 About Me:
-Hi there! I'm SAMIR GUPTA 👋<br><br>Welcome to my GitHub profile! I'm a passionate Computer Science and Engineering (CSE) student at DTU, constantly exploring new technologies and working on exciting projects.<br><br>✨ About Me<br><br>🎓 BTech in CSE at DTU'27<br>🛠️ Passionate about AI, Data Science, Cloud Computing, and Software Development<br>🌟 Contributing to Open Source<br>📊 Exploring Hybrid Software Development Models<br>💡 Working on a Women Safety App<br>☁️ Learning AWS Cloud & DevOps
-
+Hi there! I'm SAMIR GUPTA 👋<br><br>Welcome to my GitHub profile! I'm a passionate Computer Science and Engineering (CSE) student at DTU, constantly exploring new technologies and working on exciting projects.<br><br>✨ About Me<br><br>🎓 BTech in CSE at DTU'27<br>🛠️ Passionate about AI, Data Science, Cloud Computing, and Software Development<br>🌟 Contributing to Open Source<br>
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/samir.gupta1) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/samir02_07) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/samir-gupta07062004) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:samir.gupta987@gmail.com) 
@@ -31,18 +30,9 @@ Hi there! I'm SAMIR GUPTA 👋<br><br>Welcome to my GitHub profile! I'm a passio
 ![](https://github-readme-streak-stats.herokuapp.com/?user=samir0607&theme=dark&hide_border=false)<br/>
 
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=samir0607&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=samir0607&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=samir0607&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
-<!---
-samir0607/samir0607 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
