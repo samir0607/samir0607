@@ -1,6 +1,6 @@
 ![Intro](https://github.com/samir0607/samir0607/blob/a08005905b4b960a493edf872555beb3b6a19fad/Black%20Futuristic%20Animated%20Programmer%20Presentation.gif)
 # 💫 About Me:
-Hi there! I'm SAMIR GUPTA 👋<br><br>Welcome to my GitHub profile! I'm a passionate Computer Science and Engineering (CSE) student at DTU, constantly exploring new technologies and working on exciting projects.<br><br>✨ About Me<br><br>🎓 BTech in CSE at DTU'27<br>🛠️ Passionate about AI, Data Science, Cloud Computing, and Software Development<br>🌟 Contributing to Open Source<br>
+Hi there! I'm SAMIR GUPTA 👋<br><br>Passionate Computer Science and Engineering (CSE) student at DTU, constantly exploring new technologies and working on exciting projects.<br><br>✨ About Me<br><br>🎓 BTech in CSE at DTU'27<br>🛠️ Passionate about AI, Data Science, Cloud Computing, and Software Development<br>🌟 Contributing to Open Source<br>
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/samir.gupta1) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/samir02_07) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/samir-gupta07062004) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:samir.gupta987@gmail.com) 
