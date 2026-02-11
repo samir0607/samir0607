@@ -18,12 +18,9 @@ Hi there! I'm SAMIR GUPTA 👋 - BTech in CSE at DTU'27<br><br>Fullstack enginee
 ## Machine Learning:
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) 
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=samir0607&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-stats.vercel.app/api?username=samir0607&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=samir0607&theme=dark&hide_border=false)<br/>
 
-
-### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=samir0607&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
