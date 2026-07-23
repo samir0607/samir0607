@@ -268,13 +268,6 @@ function buildSvg(rows) {
   <text x="${width / 2}" y="62" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" letter-spacing="2" fill="${muted}">github.com/${GH_USERNAME}</text>
   <line x1="${paddingX}" y1="80" x2="${width - paddingX}" y2="80" stroke="${border}" stroke-width="1" stroke-dasharray="4 4" />
 
-  ${rowSvg}
-
-  <text x="${width / 2}" y="${bodyBottom + 20}" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="10" letter-spacing="1" fill="${muted}">*** thanks for stopping by ***</text>
-
-  ${barcodeBars}
-
-  <text x="${width / 2}" y="${height - 22}" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="9" fill="${muted}">updated ${updatedAt}</text>
 </svg>`;
 }
 

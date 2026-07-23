@@ -1,10 +1,10 @@
-<table width="100%" border="0" cellspacing="0" cellpadding="10">
+<table border="0" cellspacing="0" cellpadding="10">
 <tr>
-<td width="60%" valign="top">
-<img src="./assets/luffy.gif" alt="Kaizoku-o" height="380" style="object-fit: cover; object-position: middle;" />
+<td valign="top">
+<img src="./assets/luffy.gif" alt="Kaizoku-o" width="460" />
 </td>
-<td width="40%" valign="top" align="center">
-<img src="./assets/bill-card.svg" height="380" alt="Samir's dev receipt card" />
+<td valign="top" align="center">
+<img src="./assets/bill-card.svg" width="230" alt="Samir's dev receipt card" />
 </td>
 </tr>
 </table>
