@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108" role="img" aria-label="Instagram">
+  <defs>
+    <radialGradient id="top" cx="26%" cy="18%" r="92%">
+      <stop stop-color="#fef3c7"/>
+      <stop offset=".28" stop-color="#fb7185"/>
+      <stop offset=".58" stop-color="#c026d3"/>
+      <stop offset="1" stop-color="#4338ca"/>
+    </radialGradient>
+    <linearGradient id="side" x1="12" y1="52" x2="94" y2="102">
+      <stop stop-color="#86198f"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="170%" height="180%">
+      <feDropShadow dx="0" dy="13" stdDeviation="7" flood-color="#020617" flood-opacity=".75"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M18 34 54 13l36 21v42L54 97 18 76Z" fill="url(#side)"/>
+    <path d="M18 30 54 9l36 21v38L54 89 18 68Z" fill="url(#top)"/>
+    <path d="M18 30 54 51v38L18 68Z" fill="#831843" opacity=".4"/>
+    <path d="M90 30 54 51v38l36-21Z" fill="#312e81" opacity=".52"/>
+    <rect x="32" y="32" width="44" height="44" rx="14" fill="none" stroke="#fff" stroke-width="6"/>
+    <circle cx="54" cy="54" r="10" fill="none" stroke="#fff" stroke-width="6"/>
+    <circle cx="68" cy="39" r="3.8" fill="#fff"/>
+    <path d="M24 26 54 9l30 17" fill="none" stroke="#fff" stroke-opacity=".62" stroke-width="2"/>
+  </g>
+</svg>

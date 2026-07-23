@@ -1,28 +1,98 @@
-![Intro](https://github.com/samir0607/samir0607/blob/a08005905b4b960a493edf872555beb3b6a19fad/Black%20Futuristic%20Animated%20Programmer%20Presentation.gif)
-#  About Me:
-Hi there! I'm SAMIR GUPTA 👋 - BTech in CSE at DTU'27<br><br>Fullstack engineer, constantly polishing current techstack and exploring new technologies.<br> Passionate about AI, Data Science, Cloud Computing, and Software Development
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td width="60%" valign="top">
+<img src="./assets/luffy.gif" alt="Kaizoku-o" width="100%" height="380" style="object-fit: cover; object-position: top;" />
+</td>
+<td width="40%" valign="top" align="center">
+<img src="./assets/bill-card.svg" width="100%" alt="Samir's dev receipt card" />
+</td>
+</tr>
+</table>
 
-## Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/samir.gupta1) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/samir02_07) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/samir-gupta07062004) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:samir.gupta987@gmail.com) 
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td width="50%" valign="top" align="center">
 
-# Tech Stack:
-## Programming languages:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
+### Connect with me
 
-## Frontend: 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+<a href="https://linkedin.com/in/samir-gupta07062004">
+  <img src="./assets/social-linkedin.svg" width="48" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="https://instagram.com/samir02_07">
+  <img src="./assets/social-instagram.svg" width="48" alt="Instagram" />
+</a>
+&nbsp;&nbsp;
+<a href="https://discord.gg/samir.gupta1">
+  <img src="./assets/social-discord.svg" width="48" alt="Discord" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:samir.gupta987@gmail.com">
+  <img src="./assets/social-email.svg" width="48" alt="Email" />
+</a>
 
-## Backend:
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) 
+</td>
+<td width="50%" valign="top" align="center">
 
-## Machine Learning:
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) 
+### Coding profiles
 
-![](https://github-readme-stats.vercel.app/api?username=samir0607&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
-![](https://github-readme-streak-stats.herokuapp.com/?user=samir0607&theme=dark&hide_border=false)<br/>
+<a href="https://leetcode.com/samir02_07">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
+</a>
+<br/><br/>
+<a href="https://codeforces.com/profile/samir02_07">
+  <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
+</a>
+<br/><br/>
+<a href="https://www.codechef.com/users/samir0607">
+  <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" />
+</a>
 
-![](https://github-contributor-stats.vercel.app/api?username=samir0607&limit=5&theme=dark&combine_all_yearly_contributions=true)
+</td>
+</tr>
+</table>
 
----
-[![](https://visitcount.itsvg.in/api?id=samir0607&icon=0&color=0)](https://visitcount.itsvg.in)
+<div align="center">
 
+### Tech stack
+
+<img src="https://skillicons.dev/icons?i=cpp,java,js,ts,python,react,nextjs,vite,tailwind,threejs,html,css&theme=dark&perline=11" alt="C++, Java, JavaScript, TypeScript, Python, React, Next.js, Vite, Tailwind CSS, Three.js, HTML, CSS" />
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,aws,firebase,vercel,mongodb,mysql,git,docker,tensorflow&theme=dark&perline=10" alt="Node.js, Express, AWS, Firebase, Vercel, MongoDB, MySQL, Git, Docker, TensorFlow" />
+
+</div>
+
+<br/>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td width="34%" align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=samir0607&theme=tokyonight&hide_border=true&border_radius=12&include_all_commits=true&count_private=true&rank_icon=github" width="100%" alt="GitHub contribution stats" />
+</td>
+<td width="33%" align="center">
+<img src="https://streak-stats.demolab.com?user=samir0607&theme=tokyonight&hide_border=true&border=0&border_radius=12" width="100%" alt="GitHub streak stats" />
+</td>
+<td width="33%" align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=samir0607&theme=tokyonight&hide_border=true&border_radius=12&layout=compact&langs_count=10" width="100%" alt="Top languages" />
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samir0607/samir0607/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/samir0607/samir0607/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/samir0607/samir0607/output/github-snake.svg" alt="Snake animation eating GitHub contributions" width="100%" />
+</picture>
+
+<br/>
+<br/>
+
+<a href="https://visitcount.itsvg.in">
+  <img src="https://visitcount.itsvg.in/api?id=samir0607&icon=5&color=6" alt="Profile visit count" />
+</a>
+
+</div>
