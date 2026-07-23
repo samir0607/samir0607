@@ -224,18 +224,18 @@ function buildSvg(rows) {
         return `<line x1="${paddingX}" y1="${row.y}" x2="${width - paddingX}" y2="${row.y}" stroke="${border}" stroke-width="1" stroke-dasharray="4 4" />`;
       }
       if (row.type === "section") {
-        return `<text x="${paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="14" letter-spacing="2" fill="${muted}">${escapeXml(row.label)}</text>`;
+        return `<text x="${paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" letter-spacing="2" fill="${muted}">${escapeXml(row.label)}</text>`;
       }
       if (row.type === "diff") {
         return `
-        <text x="${paddingX}" y="${row.y - 18}" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" fill="${text}">${escapeXml(row.label)}</text>
-        <text x="${width - paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" font-weight="700" text-anchor="end"><tspan fill="${green}">${escapeXml(row.plus)}</tspan><tspan fill="${red}" dx="10">${escapeXml(row.minus)}</tspan></text>
+        <text x="${paddingX}" y="${row.y - 18}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="${text}">${escapeXml(row.label)}</text>
+        <text x="${width - paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" text-anchor="end"><tspan fill="${green}">${escapeXml(row.plus)}</tspan><tspan fill="${red}" dx="10">${escapeXml(row.minus)}</tspan></text>
       `;
       }
       const valueColor = row.color || text;
       return `
-        <text x="${paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" fill="${text}">${escapeXml(row.label)}</text>
-        <text x="${width - paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" font-weight="700" fill="${valueColor}" text-anchor="end">${escapeXml(row.value)}</text>
+        <text x="${paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="${text}">${escapeXml(row.label)}</text>
+        <text x="${width - paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="${valueColor}" text-anchor="end">${escapeXml(row.value)}</text>
       `;
     })
     .join("\n");
