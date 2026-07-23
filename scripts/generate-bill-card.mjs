@@ -224,28 +224,21 @@ function buildSvg(rows) {
         return `<line x1="${paddingX}" y1="${row.y}" x2="${width - paddingX}" y2="${row.y}" stroke="${border}" stroke-width="1" stroke-dasharray="4 4" />`;
       }
       if (row.type === "section") {
-        return `<text x="${paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="12" letter-spacing="2" fill="${muted}">${escapeXml(row.label)}</text>`;
+        return `<text x="${paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="14" letter-spacing="2" fill="${muted}">${escapeXml(row.label)}</text>`;
       }
       if (row.type === "diff") {
         return `
-        <text x="${paddingX}" y="${row.y - 18}" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" fill="${text}">${escapeXml(row.label)}</text>
-        <text x="${width - paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" font-weight="700" text-anchor="end"><tspan fill="${green}">${escapeXml(row.plus)}</tspan><tspan fill="${red}" dx="10">${escapeXml(row.minus)}</tspan></text>
+        <text x="${paddingX}" y="${row.y - 18}" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" fill="${text}">${escapeXml(row.label)}</text>
+        <text x="${width - paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" font-weight="700" text-anchor="end"><tspan fill="${green}">${escapeXml(row.plus)}</tspan><tspan fill="${red}" dx="10">${escapeXml(row.minus)}</tspan></text>
       `;
       }
       const valueColor = row.color || text;
       return `
-        <text x="${paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" fill="${text}">${escapeXml(row.label)}</text>
-        <text x="${width - paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" font-weight="700" fill="${valueColor}" text-anchor="end">${escapeXml(row.value)}</text>
+        <text x="${paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" fill="${text}">${escapeXml(row.label)}</text>
+        <text x="${width - paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" font-weight="700" fill="${valueColor}" text-anchor="end">${escapeXml(row.value)}</text>
       `;
     })
     .join("\n");
-
-  const barcodeY = bodyBottom + 34;
-  const barcodeBars = Array.from({ length: 46 }, (_, i) => {
-    const barWidth = (i * 37) % 3 === 0 ? 3 : 1.4;
-    const x = paddingX + i * 6.9;
-    return `<rect x="${x.toFixed(1)}" y="${barcodeY.toFixed(1)}" width="${barWidth}" height="30" fill="${text}" />`;
-  }).join("\n");
 
   const updatedAt = new Date().toISOString().slice(0, 16).replace("T", " ") + " UTC";
 
@@ -264,13 +257,13 @@ function buildSvg(rows) {
   <g clip-path="url(#zz-bottom)"><rect x="0" y="${height - 16}" width="${width}" height="16" fill="${paper}" /></g>
   <rect x="0" y="14" width="${width}" height="${height - 28}" fill="${paper}" />
 
-  <text x="${width / 2}" y="42" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="17" font-weight="700" letter-spacing="3" fill="${blue}">DEV RECEIPT</text>
-  <text x="${width / 2}" y="62" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" letter-spacing="2" fill="${muted}">github.com/${GH_USERNAME}</text>
+  <text x="${width / 2}" y="44" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="21" font-weight="700" letter-spacing="3" fill="${blue}">DEV RECEIPT</text>
+  <text x="${width / 2}" y="64" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" letter-spacing="2" fill="${muted}">github.com/${GH_USERNAME}</text>
   <line x1="${paddingX}" y1="80" x2="${width - paddingX}" y2="80" stroke="${border}" stroke-width="1" stroke-dasharray="4 4" />
 
   ${rowSvg}
 
-  <text x="${width / 2}" y="${height - 22}" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="9" fill="${muted}">updated ${updatedAt}</text>
+  <text x="${width / 2}" y="${height - 22}" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" fill="${muted}">updated ${updatedAt}</text>
 </svg>`;
 }
 
