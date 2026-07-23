@@ -1,17 +1,22 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="10">
 <tr>
 <td width="60%" valign="top">
-<img src="./assets/luffy.gif" alt="Kaizoku-o" height="380" style="object-fit: cover; object-position: top;" />
+<img src="./assets/luffy.gif" alt="Kaizoku-o" height="380" style="object-fit: cover; object-position: middle;" />
 </td>
 <td width="40%" valign="top" align="center">
 <img src="./assets/bill-card.svg" height="380" alt="Samir's dev receipt card" />
 </td>
 </tr>
 </table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samir0607/samir0607/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/samir0607/samir0607/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/samir0607/samir0607/output/github-snake.svg" alt="Snake animation eating GitHub contributions" width="100%" />
+</picture>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="10">
-<tr>
-<td width="50%" valign="top" align="center">
+<div width="100%" border="0" cellspacing="0" cellpadding="10">
+
+<div width="50%" align="center">
 
 ### Connect with me
 
@@ -31,8 +36,8 @@
   <img src="./assets/social-email.svg" width="64" alt="Email" />
 </a>
 
-</td>
-<td width="50%" valign="top" align="center">
+</div>
+<div width="50%" align="center">
 
 ### Coding profiles
 
@@ -48,9 +53,9 @@
   <img src="./assets/coding-codechef.svg" width="64" alt="CodeChef" />
 </a>
 
-</td>
-</tr>
-</table>
+</div>
+
+</div>
 
 <div align="center" width="100%">
 
@@ -65,24 +70,14 @@
 
 <br/>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="10">
-<tr>
-<td width="33%" align="center">
+<div width="100%" align="center">
+
+
 <img src="https://streak-stats.demolab.com?user=samir0607&theme=tokyonight&hide_border=true&border=0&border_radius=12" width="100%" alt="GitHub streak stats" />
-</td>
-</tr>
-</table>
+
+</div>
 
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samir0607/samir0607/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/samir0607/samir0607/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/samir0607/samir0607/output/github-snake.svg" alt="Snake animation eating GitHub contributions" width="100%" />
-</picture>
-
-<br/>
-<br/>
 
 <img src="https://komarev.com/ghpvc/?username=samir0607&label=Profile+views&color=7aa2f7&style=flat" alt="Profile visit count" />
 

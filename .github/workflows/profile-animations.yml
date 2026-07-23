@@ -46,6 +46,7 @@ jobs:
           file_pattern: profile-3d-contrib/*.svg
 
   bill-card:
+    needs: profile-3d
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
