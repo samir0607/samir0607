@@ -8,6 +8,8 @@
 </td>
 </tr>
 </table>
+<br />
+<br />
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samir0607/samir0607/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/samir0607/samir0607/output/github-snake.svg" />
