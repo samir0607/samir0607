@@ -1,26 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108" role="img" aria-label="Discord">
   <defs>
-    <linearGradient id="top" x1="19" y1="11" x2="88" y2="82">
-      <stop stop-color="#ddd6fe"/>
-      <stop offset=".46" stop-color="#5865f2"/>
-      <stop offset="1" stop-color="#312e81"/>
+    <linearGradient id="fill" x1="10" y1="6" x2="98" y2="102">
+      <stop stop-color="#ff9e64"/>
+      <stop offset="1" stop-color="#5c2c0f"/>
     </linearGradient>
-    <linearGradient id="side" x1="14" y1="56" x2="94" y2="102">
-      <stop stop-color="#4338ca"/>
-      <stop offset="1" stop-color="#020617"/>
-    </linearGradient>
-    <filter id="shadow" x="-30%" y="-30%" width="170%" height="180%">
-      <feDropShadow dx="0" dy="13" stdDeviation="7" flood-color="#020617" flood-opacity=".75"/>
+    <radialGradient id="sheen" cx="32%" cy="18%" r="55%">
+      <stop stop-color="#ffffff" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b0b12" flood-opacity=".55"/>
+    </filter>
+    <filter id="glyphShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#000000" flood-opacity=".45"/>
     </filter>
   </defs>
   <g filter="url(#shadow)">
-    <path d="M18 34 54 13l36 21v42L54 97 18 76Z" fill="url(#side)"/>
-    <path d="M18 30 54 9l36 21v38L54 89 18 68Z" fill="url(#top)"/>
-    <path d="M18 30 54 51v38L18 68Z" fill="#312e81" opacity=".45"/>
-    <path d="M90 30 54 51v38l36-21Z" fill="#1e1b4b" opacity=".55"/>
-    <path d="M34 38c12-5 28-5 40 0 6.2 9 8.5 18.4 7.4 28.5-5.5 4-11 6.5-16.5 7.9l-2.1-5.2c2.2-.8 4.3-1.8 6.3-3.1-6.8 3.2-23.4 3.2-30.2 0 2 1.3 4.1 2.3 6.3 3.1l-2.1 5.2c-5.5-1.4-11-3.9-16.5-7.9C25.5 56.4 27.8 47 34 38Z" fill="#fff"/>
-    <circle cx="45" cy="55" r="3.7" fill="#5865f2"/>
-    <circle cx="63" cy="55" r="3.7" fill="#5865f2"/>
-    <path d="M25 26 54 9l29 17" fill="none" stroke="#fff" stroke-opacity=".65" stroke-width="2"/>
+    <rect x="8" y="8" width="92" height="92" rx="30" fill="url(#fill)"/>
+    <rect x="8" y="8" width="92" height="92" rx="30" fill="url(#sheen)"/>
+    <g filter="url(#glyphShadow)">
+      <path d="M34 38c12-5 28-5 40 0 6.2 9 8.5 18.4 7.4 28.5-5.5 4-11 6.5-16.5 7.9l-2.1-5.2c2.2-.8 4.3-1.8 6.3-3.1-6.8 3.2-23.4 3.2-30.2 0 2 1.3 4.1 2.3 6.3 3.1l-2.1 5.2c-5.5-1.4-11-3.9-16.5-7.9C25.5 56.4 27.8 47 34 38Z" fill="#fff"/>
+      <circle cx="45" cy="55" r="3.7" fill="#5c2c0f"/>
+      <circle cx="63" cy="55" r="3.7" fill="#5c2c0f"/>
+    </g>
   </g>
 </svg>
