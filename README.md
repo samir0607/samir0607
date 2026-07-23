@@ -1,10 +1,10 @@
-<table border="0" cellspacing="0" cellpadding="10">
+<table border="0" cellspacing="0" cellpadding="10" align="center">
 <tr>
 <td valign="top">
-<img src="./assets/luffy.gif" alt="Kaizoku-o" width="460" />
+<img src="./assets/luffy.gif" alt="Kaizoku-o" width="546" />
 </td>
 <td valign="top" align="center">
-<img src="./assets/bill-card.svg" width="230" alt="Samir's dev receipt card" />
+<img src="./assets/bill-card.svg" width="234" alt="Samir's dev receipt card" />
 </td>
 </tr>
 </table>
