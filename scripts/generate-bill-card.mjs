@@ -201,9 +201,9 @@ function buildSvg(rows) {
   const width = 400;
   const paddingX = 28;
   const rowHeight = 28;
-  const headerHeight = 108;
-  const footerHeight = 48;
-  const dividerGap = 12;
+  const headerHeight = 86;
+  const footerHeight = 30;
+  const dividerGap = 14;
 
   let y = headerHeight;
   const lineItems = [];
