@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108" role="img" aria-label="Instagram">
   <defs>
-    <linearGradient id="fill" x1="10" y1="102" x2="98" y2="6">
+    <linearGradient id="fill" gradientUnits="userSpaceOnUse" x1="10" y1="102" x2="98" y2="6">
       <stop offset="0%" stop-color="#FEDA75"/>
       <stop offset="25%" stop-color="#FA7E1E"/>
       <stop offset="50%" stop-color="#D62976"/>
