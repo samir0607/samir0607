@@ -196,9 +196,9 @@ function zigzag(y, width, tooth = 10, direction = 1) {
 function buildSvg(rows) {
   const width = 400;
   const paddingX = 28;
-  const rowHeight = 30;
+  const rowHeight = 34;
   const headerHeight = 108;
-  const footerHeight = 96;
+  const footerHeight = 64;
   const dividerGap = 14;
 
   let y = headerHeight;
@@ -207,9 +207,6 @@ function buildSvg(rows) {
     if (row.type === "divider") {
       lineItems.push({ ...row, y });
       y += dividerGap;
-    } else if (row.type === "diff" || row.type === "stat") {
-      lineItems.push({ ...row, y: y + 18 });
-      y += rowHeight + 20;
     } else {
       lineItems.push({ ...row, y });
       y += rowHeight;
@@ -237,14 +234,8 @@ function buildSvg(rows) {
       }
       if (row.type === "diff") {
         return `
-        <text x="${paddingX}" y="${row.y - 18}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="${text}">${escapeXml(row.label)}</text>
+        <text x="${paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="${text}">${escapeXml(row.label)}</text>
         <text x="${width - paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" text-anchor="end"><tspan fill="${green}">${escapeXml(row.plus)}</tspan><tspan fill="${red}" dx="10">${escapeXml(row.minus)}</tspan></text>
-      `;
-      }
-      if (row.type === "stat") {
-        return `
-        <text x="${paddingX}" y="${row.y - 18}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="${text}">${escapeXml(row.label)}</text>
-        <text x="${width - paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="${row.color || text}" text-anchor="end">${escapeXml(row.value)}</text>
       `;
       }
       const valueColor = row.color || text;
@@ -310,14 +301,14 @@ async function main() {
     linesChanged
       ? {
           type: "diff",
-          label: "GITHUB LOC CHANGED",
+          label: "GITHUB",
           plus: `+${linesChanged.additions.toLocaleString("en-US")}`,
           minus: `-${linesChanged.deletions.toLocaleString("en-US")}`,
         }
-      : { type: "item", label: "GITHUB LOC CHANGED", value: "N/A" },
-    { type: "stat", label: "LEETCODE", value: formatStanding(lcStanding), color: "#e0af68" },
-    { type: "stat", label: "CODEFORCES", value: formatStanding(cfStanding), color: "#7aa2f7" },
-    { type: "stat", label: "CODECHEF", value: formatStanding(ccStanding), color: "#bb9af7" },
+      : { type: "item", label: "GITHUB", value: "N/A" },
+    { type: "item", label: "LEETCODE", value: formatStanding(lcStanding), color: "#e0af68" },
+    { type: "item", label: "CODEFORCES", value: formatStanding(cfStanding), color: "#7aa2f7" },
+    { type: "item", label: "CODECHEF", value: formatStanding(ccStanding), color: "#bb9af7" },
     { type: "divider" },
   ];
 
