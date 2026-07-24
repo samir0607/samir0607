@@ -38,7 +38,7 @@
 <text x="28" y="292" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" letter-spacing="2" fill="#565f89">STATS</text>
 
         <text x="28" y="326" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">GITHUB</text>
-        <text x="372" y="326" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" text-anchor="end"><tspan fill="#9ece6a">+3,984,666</tspan><tspan fill="#f7768e" dx="10">-3,438,731</tspan></text>
+        <text x="372" y="326" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" text-anchor="end"><tspan fill="#9ece6a">+3,987,401</tspan><tspan fill="#f7768e" dx="10">-3,440,696</tspan></text>
       
 
         <text x="28" y="360" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">LEETCODE</text>
@@ -54,5 +54,5 @@
       
 <line x1="28" y1="462" x2="372" y2="462" stroke="#3b4261" stroke-width="1" stroke-dasharray="4 4" />
 
-  <text x="200" y="522" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" fill="#565f89">updated 2026-07-24 13:55 UTC</text>
+  <text x="200" y="522" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" fill="#565f89">updated 2026-07-24 14:44 UTC</text>
 </svg>
