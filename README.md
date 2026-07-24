@@ -64,8 +64,11 @@
 
 <img src="https://skillicons.dev/icons?i=cpp,java,js,ts,python,react,nextjs,tailwind,threejs&theme=dark&perline=11" alt="C++, Java, JavaScript, TypeScript, Python, React, Next.js, Tailwind CSS, Three.js" />
 
+<text>C++, Java, JavaScript, TypeScript, Python, React, Next.js, Tailwind CSS, Three.js</text>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,aws,firebase,mongodb,mysql,git,docker,tensorflow&theme=dark&perline=10" alt="Node.js, Express, AWS, Firebase, MongoDB, MySQL, Git, Docker, TensorFlow" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,aws,firebase,mongodb,mysql,git,docker,redis,tensorflow&theme=dark&perline=10" alt="Node.js, Express, AWS, Firebase, MongoDB, MySQL, Git, Docker, TensorFlow" />
+
+<text>Node.js, Express, AWS, Firebase, MongoDB, MySQL, Git, Docker, Redis, TensorFlow</text>
 
 </div>
 
