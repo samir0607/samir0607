@@ -99,26 +99,31 @@ function titleCase(value) {
   return value.replace(/\w\S*/g, (word) => word[0].toUpperCase() + word.slice(1));
 }
 
-async function fetchCodeforcesTitle() {
+async function fetchCodeforcesStanding() {
   if (!CODEFORCES_HANDLE) return null;
   try {
     const data = await fetchJson(
       `https://codeforces.com/api/user.info?handles=${CODEFORCES_HANDLE}`
     );
-    const rank = data.result?.[0]?.rank;
-    return rank ? titleCase(rank) : null;
+    const entry = data.result?.[0];
+    if (!entry) return null;
+    return {
+      title: entry.rank ? titleCase(entry.rank) : null,
+      rating: entry.rating ?? null,
+    };
   } catch (err) {
     console.error("Codeforces fetch failed:", err.message);
     return null;
   }
 }
 
-async function fetchLeetcodeTitle() {
+async function fetchLeetcodeStanding() {
   if (!LEETCODE_USER) return null;
   try {
     const query = `
       query userContestRankingInfo($username: String!) {
         userContestRanking(username: $username) {
+          rating
           badge { name }
         }
       }
@@ -130,14 +135,19 @@ async function fetchLeetcodeTitle() {
     });
     if (!res.ok) throw new Error(`status ${res.status}`);
     const json = await res.json();
-    return json.data?.userContestRanking?.badge?.name ?? null;
+    const ranking = json.data?.userContestRanking;
+    if (!ranking) return null;
+    return {
+      title: ranking.badge?.name ?? null,
+      rating: ranking.rating != null ? Math.round(ranking.rating) : null,
+    };
   } catch (err) {
     console.error("LeetCode fetch failed:", err.message);
     return null;
   }
 }
 
-async function fetchCodechefTitle() {
+async function fetchCodechefStanding() {
   if (!CODECHEF_HANDLE) return null;
   try {
     const res = await fetch(`https://www.codechef.com/users/${CODECHEF_HANDLE}`, {
@@ -150,10 +160,15 @@ async function fetchCodechefTitle() {
     const html = await res.text();
     const blockStart = html.indexOf('id="rating-block-all"');
     if (blockStart === -1) throw new Error("rating block not found on profile page");
-    const starMatch = html.slice(blockStart).match(/rating-star">([\s\S]*?)<\/div>/);
+    const block = html.slice(blockStart);
+    const ratingMatch = block.match(/rating-number">\s*(\d+)/);
+    const starMatch = block.match(/rating-star">([\s\S]*?)<\/div>/);
     if (!starMatch) throw new Error("star widget not found near rating block");
     const stars = (starMatch[1].match(/&#9733;/g) || []).length;
-    return stars > 0 ? `${stars}★` : null;
+    return {
+      title: stars > 0 ? `${stars}★` : null,
+      rating: ratingMatch ? Number(ratingMatch[1]) : null,
+    };
   } catch (err) {
     console.error("CodeChef fetch failed:", err.message);
     return null;
@@ -192,7 +207,7 @@ function buildSvg(rows) {
     if (row.type === "divider") {
       lineItems.push({ ...row, y });
       y += dividerGap;
-    } else if (row.type === "diff") {
+    } else if (row.type === "diff" || row.type === "stat") {
       lineItems.push({ ...row, y: y + 18 });
       y += rowHeight + 20;
     } else {
@@ -224,6 +239,12 @@ function buildSvg(rows) {
         return `
         <text x="${paddingX}" y="${row.y - 18}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="${text}">${escapeXml(row.label)}</text>
         <text x="${width - paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" text-anchor="end"><tspan fill="${green}">${escapeXml(row.plus)}</tspan><tspan fill="${red}" dx="10">${escapeXml(row.minus)}</tspan></text>
+      `;
+      }
+      if (row.type === "stat") {
+        return `
+        <text x="${paddingX}" y="${row.y - 18}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="${text}">${escapeXml(row.label)}</text>
+        <text x="${width - paddingX}" y="${row.y}" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="${row.color || text}" text-anchor="end">${escapeXml(row.value)}</text>
       `;
       }
       const valueColor = row.color || text;
@@ -261,12 +282,21 @@ function buildSvg(rows) {
 </svg>`;
 }
 
+function formatStanding(standing) {
+  if (!standing) return "N/A";
+  const parts = [
+    standing.title,
+    standing.rating != null ? standing.rating.toLocaleString("en-US") : null,
+  ].filter(Boolean);
+  return parts.length ? parts.join(" · ") : "N/A";
+}
+
 async function main() {
-  const [linesChanged, cfTitle, lcTitle, ccTitle] = await Promise.all([
+  const [linesChanged, cfStanding, lcStanding, ccStanding] = await Promise.all([
     fetchGithubLinesChanged(),
-    fetchCodeforcesTitle(),
-    fetchLeetcodeTitle(),
-    fetchCodechefTitle(),
+    fetchCodeforcesStanding(),
+    fetchLeetcodeStanding(),
+    fetchCodechefStanding(),
   ]);
 
   const rows = [
@@ -285,9 +315,9 @@ async function main() {
           minus: `-${linesChanged.deletions.toLocaleString("en-US")}`,
         }
       : { type: "item", label: "GITHUB LOC CHANGED", value: "N/A" },
-    { type: "item", label: "LEETCODE", value: lcTitle ?? "N/A", color: "#e0af68" },
-    { type: "item", label: "CODEFORCES", value: cfTitle ?? "N/A", color: "#7aa2f7" },
-    { type: "item", label: "CODECHEF", value: ccTitle ?? "N/A", color: "#bb9af7" },
+    { type: "stat", label: "LEETCODE", value: formatStanding(lcStanding), color: "#e0af68" },
+    { type: "stat", label: "CODEFORCES", value: formatStanding(cfStanding), color: "#7aa2f7" },
+    { type: "stat", label: "CODECHEF", value: formatStanding(ccStanding), color: "#bb9af7" },
     { type: "divider" },
   ];
 
