@@ -13,7 +13,7 @@
   <g clip-path="url(#zz-bottom)"><rect x="0" y="540" width="400" height="16" fill="#1f2335" /></g>
   <rect x="0" y="14" width="400" height="528" fill="#1f2335" />
 
-  <text x="200" y="44" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="21" font-weight="700" letter-spacing="3" fill="#7aa2f7">DEV RECEIPT</text>
+  <text x="200" y="44" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="21" font-weight="700" letter-spacing="3" fill="#7aa2f7">BACKEND DEVELOPER</text>
   <text x="200" y="64" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" letter-spacing="2" fill="#565f89">github.com/samir0607</text>
   <line x1="28" y1="80" x2="372" y2="80" stroke="#3b4261" stroke-width="1" stroke-dasharray="4 4" />
 
@@ -38,21 +38,21 @@
 <text x="28" y="272" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" letter-spacing="2" fill="#565f89">STATS</text>
 
         <text x="28" y="302" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">GITHUB LOC CHANGED</text>
-        <text x="372" y="320" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" text-anchor="end"><tspan fill="#9ece6a">+3,987,161</tspan><tspan fill="#f7768e" dx="10">-3,440,529</tspan></text>
+        <text x="372" y="320" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" text-anchor="end"><tspan fill="#9ece6a">+3,984,666</tspan><tspan fill="#f7768e" dx="10">-3,438,731</tspan></text>
       
 
-        <text x="28" y="352" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">LEETCODE (PEAK)</text>
-        <text x="372" y="352" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#e0af68" text-anchor="end">1,993</text>
+        <text x="28" y="352" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">LEETCODE</text>
+        <text x="372" y="352" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#e0af68" text-anchor="end">Knight</text>
       
 
-        <text x="28" y="382" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">CODEFORCES (PEAK)</text>
-        <text x="372" y="382" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#7aa2f7" text-anchor="end">N/A</text>
+        <text x="28" y="382" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">CODEFORCES</text>
+        <text x="372" y="382" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#7aa2f7" text-anchor="end">Pupil</text>
       
 
-        <text x="28" y="412" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">CODECHEF (PEAK)</text>
-        <text x="372" y="412" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#bb9af7" text-anchor="end">1,724</text>
+        <text x="28" y="412" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">CODECHEF</text>
+        <text x="372" y="412" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#bb9af7" text-anchor="end">3★</text>
       
 <line x1="28" y1="442" x2="372" y2="442" stroke="#3b4261" stroke-width="1" stroke-dasharray="4 4" />
 
-  <text x="200" y="534" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" fill="#565f89">updated 2026-07-24 02:33 UTC</text>
+  <text x="200" y="534" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" fill="#565f89">updated 2026-07-24 11:16 UTC</text>
 </svg>
