@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108" role="img" aria-label="LinkedIn">
   <defs>
     <linearGradient id="fill" x1="10" y1="6" x2="98" y2="102">
-      <stop stop-color="#7dcfff"/>
-      <stop offset="1" stop-color="#0f3652"/>
+      <stop stop-color="#0A66C2"/>
+      <stop offset="1" stop-color="#004182"/>
     </linearGradient>
     <radialGradient id="sheen" cx="32%" cy="18%" r="55%">
       <stop stop-color="#ffffff" stop-opacity=".45"/>
