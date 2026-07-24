@@ -203,7 +203,7 @@ function buildSvg(rows) {
   const rowHeight = 28;
   const headerHeight = 86;
   const footerHeight = 30;
-  const dividerGap = 14;
+  const dividerGap = 12;
 
   let y = headerHeight;
   const lineItems = [];
