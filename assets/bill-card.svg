@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="556" viewBox="0 0 400 556">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="616" viewBox="0 0 400 616">
   <defs>
     <clipPath id="zz-top">
       <path d="M0,0 L10,-6 L20,0 L30,-6 L40,0 L50,-6 L60,0 L70,-6 L80,0 L90,-6 L100,0 L110,-6 L120,0 L130,-6 L140,0 L150,-6 L160,0 L170,-6 L180,0 L190,-6 L200,0 L210,-6 L220,0 L230,-6 L240,0 L250,-6 L260,0 L270,-6 L280,0 L290,-6 L300,0 L310,-6 L320,0 L330,-6 L340,0 L350,-6 L360,0 L370,-6 L380,0 L390,-6 L400,0 L400,14 L0,14 Z" />
     </clipPath>
     <clipPath id="zz-bottom">
-      <path d="M0,556 L10,562 L20,556 L30,562 L40,556 L50,562 L60,556 L70,562 L80,556 L90,562 L100,556 L110,562 L120,556 L130,562 L140,556 L150,562 L160,556 L170,562 L180,556 L190,562 L200,556 L210,562 L220,556 L230,562 L240,556 L250,562 L260,556 L270,562 L280,556 L290,562 L300,556 L310,562 L320,556 L330,562 L340,556 L350,562 L360,556 L370,562 L380,556 L390,562 L400,556 L400,542 L0,542 Z" />
+      <path d="M0,616 L10,622 L20,616 L30,622 L40,616 L50,622 L60,616 L70,622 L80,616 L90,622 L100,616 L110,622 L120,616 L130,622 L140,616 L150,622 L160,616 L170,622 L180,616 L190,622 L200,616 L210,622 L220,616 L230,622 L240,616 L250,622 L260,616 L270,622 L280,616 L290,622 L300,616 L310,622 L320,616 L330,622 L340,616 L350,622 L360,616 L370,622 L380,616 L390,622 L400,616 L400,602 L0,602 Z" />
     </clipPath>
   </defs>
 
-  <rect x="0" y="0" width="400" height="556" fill="#1a1b27" />
+  <rect x="0" y="0" width="400" height="616" fill="#1a1b27" />
   <g clip-path="url(#zz-top)"><rect x="0" y="0" width="400" height="16" fill="#1f2335" /></g>
-  <g clip-path="url(#zz-bottom)"><rect x="0" y="540" width="400" height="16" fill="#1f2335" /></g>
-  <rect x="0" y="14" width="400" height="528" fill="#1f2335" />
+  <g clip-path="url(#zz-bottom)"><rect x="0" y="600" width="400" height="16" fill="#1f2335" /></g>
+  <rect x="0" y="14" width="400" height="588" fill="#1f2335" />
 
   <text x="200" y="44" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="21" font-weight="700" letter-spacing="3" fill="#7aa2f7">BACKEND DEVELOPER</text>
   <text x="200" y="64" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" letter-spacing="2" fill="#565f89">github.com/samir0607</text>
@@ -42,17 +42,17 @@
       
 
         <text x="28" y="352" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">LEETCODE</text>
-        <text x="372" y="352" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#e0af68" text-anchor="end">Knight</text>
+        <text x="372" y="370" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#e0af68" text-anchor="end">Knight · 1,993</text>
       
 
-        <text x="28" y="382" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">CODEFORCES</text>
-        <text x="372" y="382" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#7aa2f7" text-anchor="end">Pupil</text>
+        <text x="28" y="402" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">CODEFORCES</text>
+        <text x="372" y="420" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#7aa2f7" text-anchor="end">Pupil · 1,293</text>
       
 
-        <text x="28" y="412" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">CODECHEF</text>
-        <text x="372" y="412" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#bb9af7" text-anchor="end">3★</text>
+        <text x="28" y="452" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">CODECHEF</text>
+        <text x="372" y="470" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#bb9af7" text-anchor="end">3★ · 1,724</text>
       
-<line x1="28" y1="442" x2="372" y2="442" stroke="#3b4261" stroke-width="1" stroke-dasharray="4 4" />
+<line x1="28" y1="502" x2="372" y2="502" stroke="#3b4261" stroke-width="1" stroke-dasharray="4 4" />
 
-  <text x="200" y="534" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" fill="#565f89">updated 2026-07-24 11:16 UTC</text>
+  <text x="200" y="594" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" fill="#565f89">updated 2026-07-24 11:59 UTC</text>
 </svg>
