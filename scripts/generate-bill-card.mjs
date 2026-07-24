@@ -9,8 +9,12 @@ const CODECHEF_HANDLE = process.env.CODECHEF_HANDLE || "";
 const NAME = process.env.BILL_NAME || "Samir Gupta";
 const AGE = process.env.BILL_AGE || "22";
 const HEIGHT = process.env.BILL_HEIGHT || "5'10\"";
-const WEIGHT = process.env.BILL_WEIGHT || "78 kg";
+const WEIGHT = process.env.BILL_WEIGHT || "77.8 kg";
 const OUTPUT_PATH = process.env.OUTPUT_PATH || "assets/bill-card.svg";
+const BENCHPRESS = "105 kg";
+const DEADLIFT = "200 kg";
+const SQUAT = "160 kg";
+const TOTAL = "465 kg"
 
 const ghHeaders = {
   Accept: "application/vnd.github+json",
@@ -196,10 +200,10 @@ function zigzag(y, width, tooth = 10, direction = 1) {
 function buildSvg(rows) {
   const width = 400;
   const paddingX = 28;
-  const rowHeight = 34;
+  const rowHeight = 28;
   const headerHeight = 108;
-  const footerHeight = 64;
-  const dividerGap = 14;
+  const footerHeight = 48;
+  const dividerGap = 12;
 
   let y = headerHeight;
   const lineItems = [];
@@ -269,7 +273,7 @@ function buildSvg(rows) {
 
   ${rowSvg}
 
-  <text x="${width / 2}" y="${height - 22}" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" fill="${muted}">updated ${updatedAt}</text>
+  <text x="${width / 2}" y="${height - 22}" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" fill="${muted}">updated ${updatedAt}</text>
 </svg>`;
 }
 
@@ -297,7 +301,13 @@ async function main() {
     { type: "item", label: "HEIGHT", value: HEIGHT },
     { type: "item", label: "WEIGHT", value: WEIGHT },
     { type: "divider" },
-    { type: "section", label: "STATS" },
+    { type: "section", label: "GYM STATS" },
+    { type: "item", label: "BENCH PRESS", value: BENCHPRESS },
+    { type: "item", label: "HEIGHT", value: DEADLIFT },
+    { type: "item", label: "WEIGHT", value: SQUAT },
+    { type: "item", label: "TOTAL", value: TOTAL },
+    { type: "divider" },
+    { type: "section", label: "CODING STATS" },
     linesChanged
       ? {
           type: "diff",
