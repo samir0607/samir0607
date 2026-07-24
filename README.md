@@ -62,13 +62,55 @@
 
 ### Tech stack
 
-<img src="https://skillicons.dev/icons?i=cpp,java,js,ts,python,react,nextjs,tailwind,threejs&theme=dark&perline=11" alt="C++, Java, JavaScript, TypeScript, Python, React, Next.js, Tailwind CSS, Three.js" />
+<sub><b>LANGUAGES</b></sub>
 
-<text>C++, Java, JavaScript, TypeScript, Python, React, Next.js, Tailwind CSS, Three.js</text>
+<table border="0" cellspacing="0" cellpadding="12" align="center">
+<tr>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="48" height="48" alt="C++" /><br /><sub><b>C++</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="48" height="48" alt="Java" /><br /><sub><b>Java</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="48" height="48" alt="JavaScript" /><br /><sub><b>JavaScript</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" height="48" alt="TypeScript" /><br /><sub><b>TypeScript</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=python&theme=dark" width="48" height="48" alt="Python" /><br /><sub><b>Python</b></sub></td>
+</tr>
+</table>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,aws,firebase,mongodb,mysql,git,docker,redis,tensorflow&theme=dark&perline=10" alt="Node.js, Express, AWS, Firebase, MongoDB, MySQL, Git, Docker, TensorFlow" />
+<sub><b>FRONTEND</b></sub>
 
-<text>Node.js, Express, AWS, Firebase, MongoDB, MySQL, Git, Docker, Redis, TensorFlow</text>
+<table border="0" cellspacing="0" cellpadding="12" align="center">
+<tr>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" height="48" alt="React" /><br /><sub><b>React</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="48" height="48" alt="Next.js" /><br /><sub><b>Next.js</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="48" height="48" alt="Tailwind CSS" /><br /><sub><b>Tailwind</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=threejs&theme=dark" width="48" height="48" alt="Three.js" /><br /><sub><b>Three.js</b></sub></td>
+</tr>
+</table>
+
+<sub><b>BACKEND</b></sub>
+
+<table border="0" cellspacing="0" cellpadding="12" align="center">
+<tr>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Node.js" /><br /><sub><b>Node.js</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=express&theme=dark" width="48" height="48" alt="Express" /><br /><sub><b>Express</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=flask&theme=dark" width="48" height="48" alt="Flask" /><br /><sub><b>Flask</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="48" height="48" alt="FastAPI" /><br /><sub><b>FastAPI</b></sub></td>
+</tr>
+</table>
+
+<sub><b>TOOLS</b></sub>
+
+<table border="0" cellspacing="0" cellpadding="12" align="center">
+<tr>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=aws&theme=dark" width="48" height="48" alt="AWS" /><br /><sub><b>AWS</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=firebase&theme=dark" width="48" height="48" alt="Firebase" /><br /><sub><b>Firebase</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="48" height="48" alt="MongoDB" /><br /><sub><b>MongoDB</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="48" height="48" alt="MySQL" /><br /><sub><b>MySQL</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48" height="48" alt="PostgreSQL" /><br /><sub><b>PostgreSQL</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" /><br /><sub><b>Git</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" /><br /><sub><b>Docker</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=redis&theme=dark" width="48" height="48" alt="Redis" /><br /><sub><b>Redis</b></sub></td>
+<td align="center" width="70"><img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" width="48" height="48" alt="TensorFlow" /><br /><sub><b>TensorFlow</b></sub></td>
+</tr>
+</table>
 
 </div>
 
