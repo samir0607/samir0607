@@ -95,27 +95,31 @@ async function fetchGithubLinesChanged() {
   }
 }
 
-async function fetchCodeforcesMaxRating() {
+function titleCase(value) {
+  return value.replace(/\w\S*/g, (word) => word[0].toUpperCase() + word.slice(1));
+}
+
+async function fetchCodeforcesTitle() {
   if (!CODEFORCES_HANDLE) return null;
   try {
     const data = await fetchJson(
       `https://codeforces.com/api/user.info?handles=${CODEFORCES_HANDLE}`
     );
-    return data.result?.[0]?.maxRating ?? null;
+    const rank = data.result?.[0]?.rank;
+    return rank ? titleCase(rank) : null;
   } catch (err) {
     console.error("Codeforces fetch failed:", err.message);
     return null;
   }
 }
 
-async function fetchLeetcodeMaxRating() {
+async function fetchLeetcodeTitle() {
   if (!LEETCODE_USER) return null;
   try {
     const query = `
-      query userContestRankingHistory($username: String!) {
-        userContestRankingHistory(username: $username) {
-          attended
-          rating
+      query userContestRankingInfo($username: String!) {
+        userContestRanking(username: $username) {
+          badge { name }
         }
       }
     `;
@@ -126,19 +130,14 @@ async function fetchLeetcodeMaxRating() {
     });
     if (!res.ok) throw new Error(`status ${res.status}`);
     const json = await res.json();
-    const history = json.data?.userContestRankingHistory ?? [];
-    const attendedRatings = history
-      .filter((entry) => entry.attended)
-      .map((entry) => entry.rating);
-    if (!attendedRatings.length) return null;
-    return Math.round(Math.max(...attendedRatings));
+    return json.data?.userContestRanking?.badge?.name ?? null;
   } catch (err) {
     console.error("LeetCode fetch failed:", err.message);
     return null;
   }
 }
 
-async function fetchCodechefMaxRating() {
+async function fetchCodechefTitle() {
   if (!CODECHEF_HANDLE) return null;
   try {
     const res = await fetch(`https://www.codechef.com/users/${CODECHEF_HANDLE}`, {
@@ -149,21 +148,16 @@ async function fetchCodechefMaxRating() {
     });
     if (!res.ok) throw new Error(`status ${res.status}`);
     const html = await res.text();
-    const anchor = html.indexOf("CodeChef Rating</strong>");
-    if (anchor === -1) throw new Error("rating widget not found on profile page");
-    const window = html.slice(anchor, anchor + 200);
-    const match = window.match(/Highest Rating (\d+)/);
-    if (!match) throw new Error("highest rating not found near widget");
-    return Number(match[1]);
+    const blockStart = html.indexOf('id="rating-block-all"');
+    if (blockStart === -1) throw new Error("rating block not found on profile page");
+    const starMatch = html.slice(blockStart).match(/rating-star">([\s\S]*?)<\/div>/);
+    if (!starMatch) throw new Error("star widget not found near rating block");
+    const stars = (starMatch[1].match(/&#9733;/g) || []).length;
+    return stars > 0 ? `${stars}★` : null;
   } catch (err) {
     console.error("CodeChef fetch failed:", err.message);
     return null;
   }
-}
-
-function formatValue(value, suffix = "") {
-  if (value === null || value === undefined) return "N/A";
-  return `${value.toLocaleString("en-US")}${suffix}`;
 }
 
 function escapeXml(value) {
@@ -257,7 +251,7 @@ function buildSvg(rows) {
   <g clip-path="url(#zz-bottom)"><rect x="0" y="${height - 16}" width="${width}" height="16" fill="${paper}" /></g>
   <rect x="0" y="14" width="${width}" height="${height - 28}" fill="${paper}" />
 
-  <text x="${width / 2}" y="44" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="21" font-weight="700" letter-spacing="3" fill="${blue}">DEV RECEIPT</text>
+  <text x="${width / 2}" y="44" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="21" font-weight="700" letter-spacing="3" fill="${blue}">BACKEND DEVELOPER</text>
   <text x="${width / 2}" y="64" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" letter-spacing="2" fill="${muted}">github.com/${GH_USERNAME}</text>
   <line x1="${paddingX}" y1="80" x2="${width - paddingX}" y2="80" stroke="${border}" stroke-width="1" stroke-dasharray="4 4" />
 
@@ -268,11 +262,11 @@ function buildSvg(rows) {
 }
 
 async function main() {
-  const [linesChanged, cfMax, lcMax, ccMax] = await Promise.all([
+  const [linesChanged, cfTitle, lcTitle, ccTitle] = await Promise.all([
     fetchGithubLinesChanged(),
-    fetchCodeforcesMaxRating(),
-    fetchLeetcodeMaxRating(),
-    fetchCodechefMaxRating(),
+    fetchCodeforcesTitle(),
+    fetchLeetcodeTitle(),
+    fetchCodechefTitle(),
   ]);
 
   const rows = [
@@ -291,9 +285,9 @@ async function main() {
           minus: `-${linesChanged.deletions.toLocaleString("en-US")}`,
         }
       : { type: "item", label: "GITHUB LOC CHANGED", value: "N/A" },
-    { type: "item", label: "LEETCODE (PEAK)", value: formatValue(lcMax), color: "#e0af68" },
-    { type: "item", label: "CODEFORCES (PEAK)", value: formatValue(cfMax), color: "#7aa2f7" },
-    { type: "item", label: "CODECHEF (PEAK)", value: formatValue(ccMax), color: "#bb9af7" },
+    { type: "item", label: "LEETCODE", value: lcTitle ?? "N/A", color: "#e0af68" },
+    { type: "item", label: "CODEFORCES", value: cfTitle ?? "N/A", color: "#7aa2f7" },
+    { type: "item", label: "CODECHEF", value: ccTitle ?? "N/A", color: "#bb9af7" },
     { type: "divider" },
   ];
 
