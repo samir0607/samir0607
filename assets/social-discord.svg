@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108" role="img" aria-label="Discord">
   <defs>
     <linearGradient id="fill" x1="10" y1="6" x2="98" y2="102">
-      <stop stop-color="#ff9e64"/>
-      <stop offset="1" stop-color="#5c2c0f"/>
+      <stop stop-color="#5865F2"/>
+      <stop offset="1" stop-color="#1e2148"/>
     </linearGradient>
     <radialGradient id="sheen" cx="32%" cy="18%" r="55%">
       <stop stop-color="#ffffff" stop-opacity=".45"/>
@@ -20,8 +20,8 @@
     <rect x="8" y="8" width="92" height="92" rx="30" fill="url(#sheen)"/>
     <g filter="url(#glyphShadow)">
       <path d="M34 38c12-5 28-5 40 0 6.2 9 8.5 18.4 7.4 28.5-5.5 4-11 6.5-16.5 7.9l-2.1-5.2c2.2-.8 4.3-1.8 6.3-3.1-6.8 3.2-23.4 3.2-30.2 0 2 1.3 4.1 2.3 6.3 3.1l-2.1 5.2c-5.5-1.4-11-3.9-16.5-7.9C25.5 56.4 27.8 47 34 38Z" fill="#fff"/>
-      <circle cx="45" cy="55" r="3.7" fill="#5c2c0f"/>
-      <circle cx="63" cy="55" r="3.7" fill="#5c2c0f"/>
+      <circle cx="45" cy="55" r="3.7" fill="#1e2148"/>
+      <circle cx="63" cy="55" r="3.7" fill="#1e2148"/>
     </g>
   </g>
 </svg>
