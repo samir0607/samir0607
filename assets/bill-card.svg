@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="582" viewBox="0 0 400 582">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="576" viewBox="0 0 400 576">
   <defs>
     <clipPath id="zz-top">
       <path d="M0,0 L10,-6 L20,0 L30,-6 L40,0 L50,-6 L60,0 L70,-6 L80,0 L90,-6 L100,0 L110,-6 L120,0 L130,-6 L140,0 L150,-6 L160,0 L170,-6 L180,0 L190,-6 L200,0 L210,-6 L220,0 L230,-6 L240,0 L250,-6 L260,0 L270,-6 L280,0 L290,-6 L300,0 L310,-6 L320,0 L330,-6 L340,0 L350,-6 L360,0 L370,-6 L380,0 L390,-6 L400,0 L400,14 L0,14 Z" />
     </clipPath>
     <clipPath id="zz-bottom">
-      <path d="M0,582 L10,588 L20,582 L30,588 L40,582 L50,588 L60,582 L70,588 L80,582 L90,588 L100,582 L110,588 L120,582 L130,588 L140,582 L150,588 L160,582 L170,588 L180,582 L190,588 L200,582 L210,588 L220,582 L230,588 L240,582 L250,588 L260,582 L270,588 L280,582 L290,588 L300,582 L310,588 L320,582 L330,588 L340,582 L350,588 L360,582 L370,588 L380,582 L390,588 L400,582 L400,568 L0,568 Z" />
+      <path d="M0,576 L10,582 L20,576 L30,582 L40,576 L50,582 L60,576 L70,582 L80,576 L90,582 L100,576 L110,582 L120,576 L130,582 L140,576 L150,582 L160,576 L170,582 L180,576 L190,582 L200,576 L210,582 L220,576 L230,582 L240,576 L250,582 L260,576 L270,582 L280,576 L290,582 L300,576 L310,582 L320,576 L330,582 L340,576 L350,582 L360,576 L370,582 L380,576 L390,582 L400,576 L400,562 L0,562 Z" />
     </clipPath>
   </defs>
 
-  <rect x="0" y="0" width="400" height="582" fill="#1a1b27" />
+  <rect x="0" y="0" width="400" height="576" fill="#1a1b27" />
   <g clip-path="url(#zz-top)"><rect x="0" y="0" width="400" height="16" fill="#1f2335" /></g>
-  <g clip-path="url(#zz-bottom)"><rect x="0" y="566" width="400" height="16" fill="#1f2335" /></g>
-  <rect x="0" y="14" width="400" height="554" fill="#1f2335" />
+  <g clip-path="url(#zz-bottom)"><rect x="0" y="560" width="400" height="16" fill="#1f2335" /></g>
+  <rect x="0" y="14" width="400" height="548" fill="#1f2335" />
 
   <text x="200" y="44" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="21" font-weight="700" letter-spacing="3" fill="#7aa2f7">BACKEND DEVELOPER</text>
   <text x="200" y="64" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" letter-spacing="2" fill="#565f89">github.com/samir0607</text>
@@ -35,42 +35,42 @@
         <text x="372" y="198" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#c0caf5" text-anchor="end">78 kg</text>
       
 <line x1="28" y1="226" x2="372" y2="226" stroke="#3b4261" stroke-width="1" stroke-dasharray="4 4" />
-<text x="28" y="240" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" letter-spacing="2" fill="#565f89">GYM STATS</text>
+<text x="28" y="238" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" letter-spacing="2" fill="#565f89">GYM STATS</text>
 
-        <text x="28" y="268" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">BENCH PRESS</text>
-        <text x="372" y="268" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#c0caf5" text-anchor="end">105 kg</text>
+        <text x="28" y="266" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">BENCH PRESS</text>
+        <text x="372" y="266" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#c0caf5" text-anchor="end">105 kg</text>
       
 
-        <text x="28" y="296" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">HEIGHT</text>
-        <text x="372" y="296" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#c0caf5" text-anchor="end">200 kg</text>
+        <text x="28" y="294" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">HEIGHT</text>
+        <text x="372" y="294" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#c0caf5" text-anchor="end">200 kg</text>
       
 
-        <text x="28" y="324" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">WEIGHT</text>
-        <text x="372" y="324" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#c0caf5" text-anchor="end">160 kg</text>
+        <text x="28" y="322" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">WEIGHT</text>
+        <text x="372" y="322" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#c0caf5" text-anchor="end">160 kg</text>
       
 
-        <text x="28" y="352" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">TOTAL</text>
-        <text x="372" y="352" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#c0caf5" text-anchor="end">465 kg</text>
+        <text x="28" y="350" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">TOTAL</text>
+        <text x="372" y="350" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#c0caf5" text-anchor="end">465 kg</text>
       
-<line x1="28" y1="380" x2="372" y2="380" stroke="#3b4261" stroke-width="1" stroke-dasharray="4 4" />
-<text x="28" y="394" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" letter-spacing="2" fill="#565f89">CODING STATS</text>
+<line x1="28" y1="378" x2="372" y2="378" stroke="#3b4261" stroke-width="1" stroke-dasharray="4 4" />
+<text x="28" y="390" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" letter-spacing="2" fill="#565f89">CODING STATS</text>
 
-        <text x="28" y="422" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">GITHUB</text>
-        <text x="372" y="422" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" text-anchor="end"><tspan fill="#9ece6a">+3,984,666</tspan><tspan fill="#f7768e" dx="10">-3,438,731</tspan></text>
-      
-
-        <text x="28" y="450" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">LEETCODE</text>
-        <text x="372" y="450" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#e0af68" text-anchor="end">Knight · 1,993</text>
+        <text x="28" y="418" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">GITHUB</text>
+        <text x="372" y="418" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" text-anchor="end"><tspan fill="#9ece6a">+3,987,530</tspan><tspan fill="#f7768e" dx="10">-3,440,797</tspan></text>
       
 
-        <text x="28" y="478" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">CODEFORCES</text>
-        <text x="372" y="478" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#7aa2f7" text-anchor="end">Pupil · 1,293</text>
+        <text x="28" y="446" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">LEETCODE</text>
+        <text x="372" y="446" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#e0af68" text-anchor="end">Knight · 1,993</text>
       
 
-        <text x="28" y="506" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">CODECHEF</text>
-        <text x="372" y="506" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#bb9af7" text-anchor="end">3★ · 1,724</text>
+        <text x="28" y="474" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">CODEFORCES</text>
+        <text x="372" y="474" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#7aa2f7" text-anchor="end">Pupil · 1,293</text>
       
-<line x1="28" y1="534" x2="372" y2="534" stroke="#3b4261" stroke-width="1" stroke-dasharray="4 4" />
 
-  <text x="200" y="560" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" fill="#565f89">updated 2026-07-24 19:43 UTC</text>
+        <text x="28" y="502" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#c0caf5">CODECHEF</text>
+        <text x="372" y="502" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#bb9af7" text-anchor="end">3★ · 1,724</text>
+      
+<line x1="28" y1="530" x2="372" y2="530" stroke="#3b4261" stroke-width="1" stroke-dasharray="4 4" />
+
+  <text x="200" y="554" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" fill="#565f89">updated 2026-07-25 02:31 UTC</text>
 </svg>
